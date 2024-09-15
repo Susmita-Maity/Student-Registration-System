@@ -1,0 +1,105 @@
+html1{
+    scroll-behavior: smooth;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'poppins' , sans-serif;
+}
+
+/*body*/
+body{
+    
+    
+    background-color: rgb(90, 7, 113);
+    background-size: cover;
+    height: 120vh;
+}
+h1{ 
+    text-align: center;
+    font-size: 3em;
+    color: #333;
+    padding-top: 10vh;
+    text-shadow: 1px 1px whitesmoke;    
+}
+mark{
+    background-color: cadetblue;
+    border-radius: 4px;
+    box-shadow: 1px 5px 5px whitesmoke;
+}
+/*table*/
+table{
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 40vh;
+    text-align: center;
+    font-size: 1.2em;
+    color: #f4efef;
+    padding: 10px;
+    box-shadow: 1px 1px whitesmoke;
+    border-radius: 10px;
+    background-color: rgba(255,255,255,0.7);
+    border: 1px solid rgba(0,0,0,0.2);
+    transition: transform 0.5s ease;
+    transform: translateY(-100%);
+    transition: background-color 0.5s ease;
+    background-color: rgba(190, 181, 181, 0);
+    transition: box-shadow 0.5s ease;
+    box-shadow: 0px 0px 10px rgba(246, 242, 242, 0.2);
+    transition: text-shadow 0.5s ease;
+    text-shadow: 1px 1px rgba(241, 238, 238, 0.2); 
+
+}
+
+.btn-box{
+    color: aliceblue;
+    text-decoration: none;
+    margin-left: 250px;
+    margin-bottom: 100px; 
+}
+.btn-box:hover{
+    color: #0ef;
+    text-decoration: underline;
+}
+/*editbutton*/
+.editButton{
+    background-color: cadetblue;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.editButton:hover{
+    box-shadow: 0 0 20px rgb(1, 19, 37);
+}
+/*delete button*/
+.deleteButton{
+    background-color: rgb(205, 163, 216);
+    color: rgb(20, 1, 1);
+    font-weight: bold;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.deleteButton:hover{
+    box-shadow: 0 0 20px rgb(21, 1, 31);
+}
+/*media queries*/
+
+@media (max-width: 768px) {
+    table {
+        display: flex;
+        flex-direction: column;
+    }
+    table th, table td {
+        display: block;
+        padding: 10px;
+    }
+}
+
+
+

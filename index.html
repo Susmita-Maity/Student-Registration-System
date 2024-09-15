@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM assignment</title>
+    <link rel="stylesheet" href="./stylesheet.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+<!---Header-->
+    <h1 id="heading"><mark>Student Registration System</mark></h1>
+    <br>
+    <p id="description"><strong>Efficiently manages student information, including name, ID, email, and contact details. Validates input for accuracy and stores data locally. Provides options for viewing, editing, and deleting student records.
+        Enter the student's name, ID, email address, and contact number.
+        The system ensures that all required fields are filled out correctly and that the email and contact number formats are valid.
+                <br>        Register your details here.--------</strong></p>
+    <section>
+        <div class="container"></div>
+        <!--image-->
+            <div class="box">
+                <img src="img-1.jpg" alt="">
+            </div>
+            <!--Registration box-->
+            <div class="box"></div>
+                <form id="registrationForm">
+                    <label for="studentName">Student Name:</label>
+                    <input type="text" id="studentName" name="studentName" required>   
+        
+                    <label for="studentId">Student ID:</label>
+                    <input type="number" id="studentId" name="studentId" required>
+        
+                    <label for="emailId">Email ID:</label>
+                    <input type="email" id="emailId" name="emailId" required>
+        
+                    <label for="contactNo">Contact No:</label>
+                    <input type="tel" id="contactNo" name="contactNo" required>
+                    <br>
+
+                    <br>           
+                    <button type="submit">Submit</button>
+                    <a href="./display.html" class="btn-box">Click here <i class="fa-solid fa-arrow-right" style="color: #eff3fb;"></i></a>
+                </form>
+                
+            </div>                   
+        </div>
+    </section>
+    <!--Footer section-->
+    <footer>
+        <br>
+        <!--Icons-->
+        <div class="icons">
+            <a href="https://github.com/Susmita-Maity" ><i class="fa-brands fa-github"></i></a> 
+            <a href="https://x.com/Drayogi82218663" ><i class="fa-brands fa-twitter"></i></a>
+            <a href="https://www.linkedin.com/in/susmita-maity-9b7b58286"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://www.instagram.com/invites/contact/?igsh=ptu7s0gbzdsx&utm_content=kmnibrz"><i class="fa-brands fa-instagram"></i></a> 
+        </div>
+        <br>
+        <p>Made with <i class="fas fa-heart"></i> by <a href="#">Susmita Maity</a></p>
+        <p>&copy; 2024 Student Registration System. All rights reserved.</p>
+    </footer>
+    <!--Script file -->
+    <script src="main.js"></script>
+</body>
+</html>
